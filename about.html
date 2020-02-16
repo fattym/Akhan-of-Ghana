@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="ab.css">
+  <title>Akan Names</title>
+  <script src="java.js"></script>
+</head>
+
+<body>
+
+  <ul class="nav justify-content-center">
+    <li class="nav-item">
+      <a class="nav-link active" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="about.html">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="cont.html">Contact</a>
+    </li>
+  </ul>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-4 col-sm-8 col-xs-12">
+        <div class="Jumbotron">
+          <p style="font-size:2vw;">The AKAN people of Ghana name their newborns according to the day of the week they
+            were born. This application enables anyone to input their birthday and get back their corresponding AKAN
+            name
+            with regards to the day of the week they were born. Well, that makes us all Akanians.</p>
+            
+          <img src="https://bit.ly/2UZYUZ4" class="img-responsive" alt="Danceing kid" style="align-items: center;"
+            width="304" height="236">
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+        <div class="jumbotron">
+          <h2>Enter your info to know your akan name</h2>
+
+          <div class="form-group top-form">
+            <label for="century" class="labels">Century</label>
+            <input type="number" class="form-control" placeholder="Enter the century" id="century" required min="0"
+              max="30">
+          </div>
+          <div class="form-group">
+            <label for="year" class="labels">Year</label>
+            <input type="number" placeholder="Enter the year" class="form-control" id="year" required min="0" max="100">
+          </div>
+          <div class="form-group">
+            <label for="month" class="labels">Month</label>
+            <input type="number" class="form-control" placeholder="Enter the month of the year" id="month" required
+              min="0" max="12">
+          </div>
+          <div class="form-group">
+            <label for="monthDay" class="labels">Day of month</label>
+            <input type="number" placeholder="Enter the day of the month" class="form-control" id="monthday" required
+              min="0" max="12">
+          </div>
+          <form class="radio-button">
+            <input type="radio" class="genders labels" value="male" id="rad1" name="rads" required>Male
+            <input type="radio" class="genders labels" value="female" id="rad1" name="rads" required>Female
+          </form>
+          <br>
+          <a href="#result"><button type="button" name="button" class="btn btn-primary mb-2"
+              onclick="checkDayOfWeek();">Submit</button></a>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h2>Akan</h2>
+      <p>The table class below show the corresponding days and akan names</p>
+      <h1 id="result"></h1>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Days</th>
+            <th>Male</th>
+            <th>Female</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Sunday</td>
+            <td>Kwasi</td>
+            <td>Akosua</td>
+          </tr>
+          <tr>
+            <td>Monday</td>
+            <td>Kwadwo</td>
+            <td>Adwoa</td>
+          </tr>
+          <tr>
+            <td>Tuesday</td>
+            <td>Kwabena</td>
+            <td>Abenaa</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>Kwaku</td>
+            <td>Akua</td>
+          </tr>
+          <tr>
+            <td>Thursday</td>
+            <td>Yaw</td>
+            <td>Yaa</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>Kofi</td>
+            <td>Afua</td>
+          </tr>
+          <tr>
+            <td>Saturday</td>
+            <td>Kwame</td>
+            <td>Ama</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <audio controls autoplay hidden="true">
+    <source src="./song2.mp3" type="audio/mp3">
+  </audio>
+
+
+
+  <div class="footer">
+    <p> &#169 copyright</p>
+  </div>
+</body>
+
+</html>
