@@ -1,0 +1,51 @@
+body {
+    background-image: url(https://bit.ly/38smUIo);
+
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.nav-link {
+    color: yellow;
+    font-family: 'Kaushan Script', cursive;
+    font-size: x-large;
+    font-weight: 800;
+}
+
+p {
+    color: antiquewhite;
+}
+
+#center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+h1 {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    border: 5px solid red;
+
+
+}
+
+#ghana {
+    color: #006B3F;
+    display: flex;
+    justify-content: center;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
