@@ -42,6 +42,8 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 <a href="https://css-tricks.com/">CSS Css trickes</a> 
 
 <a href="https://getbootstrap.com/">Bootstrap</a>
+
+<a href="https://www.w3schools.com/">Javascript</a>
 ## Support and contact details
 call me on
 
