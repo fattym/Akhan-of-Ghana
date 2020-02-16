@@ -33,6 +33,8 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 | It gets the birthday     | 12/12/1998 | |
 | It  checks whether the date and month entered is valid   |    day 0 or month 13  | invalid Month or Day  |
 |  Akan name depending on their gender | Application should match corresponds akan name  |   Your Akan name is Kwas |
+## output:
+<img src="./img/scre.png" width="" >
 
 ## Technologies Used
 <a href="https://www.w3schools.com/">HTML W3schools</a> 
