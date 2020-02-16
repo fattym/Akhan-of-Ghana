@@ -2,142 +2,145 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="ab.css">
-  <title>Akan Names</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ab.css">
+    <title>Akan Names</title>
 </head>
 
 <body>
 
-  <ul class="nav justify-content-center">
-    <li class="nav-item">
-      <a class="nav-link active" href="index.html">Home</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="about.html">About</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="cont.html">Contact</a>
-    </li>
-  </ul>
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-4 col-sm-8 col-xs-12">
-        <div class="Jumbotron">
-        <p style="font-size:2vw;">The AKAN people of Ghana name their newborns according to the day of the week they
-          were born. This application enables anyone to input their birthday and get back their corresponding AKAN name
-          with regards to the day of the week they were born. Well, that makes us all Akanians.</p>
-        <img src="https://bit.ly/2UZYUZ4" class="img-responsive" alt="Cinque Terre" style="align-items: center;"
-          width="304" height="236">
-        </div>
-      </div>
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="cont.html">Contact</a>
+        </li>
+    </ul>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-4 col-sm-8 col-xs-12">
+                <div class="Jumbotron">
+                    <p style="font-size:2vw;">The AKAN people of Ghana name their newborns according to the day of the
+                        week they
+                        were born. This application enables anyone to input their birthday and get back their
+                        corresponding AKAN name
+                        with regards to the day of the week they were born. Well, that makes us all Akanians.</p>
+                    <img src="https://bit.ly/2UZYUZ4" class="img-responsive" alt="Cinque Terre"
+                        style="align-items: center;" width="304" height="236">
+                </div>
+            </div>
 
-      <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+            <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                <div class="jumbotron">
+                    <h2>Enter your info to know your akan name</h2>
+                    <form action="#">
+
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="basic-addon1">Name</span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Enter your name" aria-label="Username"
+                                aria-describedby="basic-addon1">
+                        </div>
+                        <br>
+                        <input type="number" id="day" placeholder="DD" min="1" max="31" />
+                        <input type="number" id="month" placeholder="MM" min="1" max="12" />
+                        <input type="text" id="year" placeholder="Year of birth (YYYY)" />
+
+                        <!-- Default unchecked -->
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" id="defaultUnchecked" name="Gender">
+                            <label class="custom-control-label" for="defaultUnchecked">Male</label>
+                        </div>
+
+                        <!-- Default checked -->
+                        <div class="custom-control custom-radio">
+                            <input type="radio" class="custom-control-input" id="defaultChecked" name="Gender" checked>
+                            <label class="custom-control-label" for="defaultChecked">Female</label>
+                        </div>
+
+
+
+                        <div id="buttons">
+                            <a href="#" class="btn" id="submit">Submit</a><input type="reset" id="reset"
+                                value="Reset" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
         <div class="jumbotron">
-          <h2>Enter your info to know your akan name</h2>
-          <form action="#">
-
-            <div class="input-group mb-3">
-              <div class="input-group-prepend">
-                <span class="input-group-text" id="basic-addon1">Name</span>
-              </div>
-              <input type="text" class="form-control" placeholder="Enter your name" aria-label="Username"
-                aria-describedby="basic-addon1">
-            </div>
-            <br>
-            <input type="number" id="day" placeholder="DD" min="1" max="31" />
-            <input type="number" id="month" placeholder="MM" min="1" max="12" />
-            <input type="text" id="year" placeholder="Year of birth (YYYY)" />
-
-            <!-- Default unchecked -->
-            <div class="custom-control custom-radio">
-              <input type="radio" class="custom-control-input" id="defaultUnchecked" name="Gender">
-              <label class="custom-control-label" for="defaultUnchecked">Male</label>
-            </div>
-
-            <!-- Default checked -->
-            <div class="custom-control custom-radio">
-              <input type="radio" class="custom-control-input" id="defaultChecked" name="Gender" checked>
-              <label class="custom-control-label" for="defaultChecked">Female</label>
-            </div>
-
-
-
-            <div id="buttons">
-              <a href="#" class="btn" id="submit">Submit</a><input type="reset" id="reset" value="Reset" />
-            </div>
-          </form>
+            <h2>Akan</h2>
+            <p>The table class below show the corresponding days and akan names</p>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Days</th>
+                        <th>Male</th>
+                        <th>Female</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sunday</td>
+                        <td>Kwasi</td>
+                        <td>Akosua</td>
+                    </tr>
+                    <tr>
+                        <td>Monday</td>
+                        <td>Kwadwo</td>
+                        <td>Adwoa</td>
+                    </tr>
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>Kwabena</td>
+                        <td>Abenaa</td>
+                    </tr>
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>Kwaku</td>
+                        <td>Akua</td>
+                    </tr>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>Yaw</td>
+                        <td>Yaa</td>
+                    </tr>
+                    <tr>
+                        <td>Friday</td>
+                        <td>Kofi</td>
+                        <td>Afua</td>
+                    </tr>
+                    <tr>
+                        <td>Saturday</td>
+                        <td>Kwame</td>
+                        <td>Ama</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-      </div>
     </div>
-  </div>
 
-  <div class="container">
-    <div class="jumbotron">
-      <h2>Akan</h2>
-      <p>The table class below show the corresponding days and akan names</p>
-      <table class="table">
-        <thead>
-          <tr>
-            <th>Days</th>
-            <th>Male</th>
-            <th>Female</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Sunday</td>
-            <td>Kwasi</td>
-            <td>Akosua</td>
-          </tr>
-          <tr>
-            <td>Monday</td>
-            <td>Kwadwo</td>
-            <td>Adwoa</td>
-          </tr>
-          <tr>
-            <td>Tuesday</td>
-            <td>Kwabena</td>
-            <td>Abenaa</td>
-          </tr>
-          <tr>
-            <td>Wednesday</td>
-            <td>Kwaku</td>
-            <td>Akua</td>
-          </tr>
-          <tr>
-            <td>Thursday</td>
-            <td>Yaw</td>
-            <td>Yaa</td>
-          </tr>
-          <tr>
-            <td>Friday</td>
-            <td>Kofi</td>
-            <td>Afua</td>
-          </tr>
-          <tr>
-            <td>Saturday</td>
-            <td>Kwame</td>
-            <td>Ama</td>
-          </tr>
-        </tbody>
-      </table>
+    <audio controls autoplay hidden="true">
+        <source src="song2.mp3" type="audio/mp3">
+    </audio>
+
+
+
+    <div class="footer">
+        <p> &#169 copyright</p>
     </div>
-  </div>
-
-  <audio controls autoplay hidden="true">
-    <source src="song2.mp3" type="audio/mp3">
-  </audio>
-
-
-
-  <div class="footer">
-    <p> &#169 copyright</p>
-  </div>
 </body>
 
 </html>
