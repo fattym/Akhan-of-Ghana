@@ -1,0 +1,57 @@
+#img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+
+}
+
+#z {
+    color: yellow;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: bolder;
+}
+
+#red {
+    color: white;
+}
+
+#j {
+    color: skyblue;
+}
+
+.jumbotron {
+    background-color: #f4511e;
+    color: #fff;
+    padding: 100px 25px;
+}
+
+.container-fluid {
+    padding: 60px 50px;
+}
+
+.bg-grey {
+    background-color: coral;
+}
+
+.logo-small {
+    color: #f4511e;
+    font-size: 50px;
+}
+
+.logo {
+    color: #f4511e;
+    font-size: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
